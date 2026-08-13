@@ -1,0 +1,40 @@
+.app-shell {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-align: left;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  color: #6b7280;
+  margin-top: 0;
+}
+
+.status-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.5rem;
+  background: #f9fafb;
+}
+
+.status-card ul {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0;
+}
+
+.status-error {
+  color: #b91c1c;
+}
+
+.next-phase-note {
+  margin-top: 1.5rem;
+  color: #374151;
+  font-size: 0.95rem;
+}
