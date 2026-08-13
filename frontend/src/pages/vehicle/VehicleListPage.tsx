@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 import VehicleHeader from "../../components/vehicle/VehicleHeader";
 import VehicleTable from "../../components/vehicle/VehicleTable";
@@ -7,7 +6,7 @@ import VehicleTable from "../../components/vehicle/VehicleTable";
 import { useVehicleStore } from "../../store/vehicle.store";
 
 const VehicleListPage = () => {
-  const navigate = useNavigate();
+  
 
   const {
     vehicles,
